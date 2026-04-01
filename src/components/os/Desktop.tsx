@@ -80,7 +80,7 @@ const Desktop: React.FC<DesktopProps> = (props) => {
         if (shutdown === true) {
             rebootDesktop();
         }
-    }, [shutdown]);
+    }, [shutdown]); // eslint-disable-line react-hooks/exhaustive-deps
 
     useEffect(() => {
         const newShortcuts: DesktopShortcutProps[] = [];
