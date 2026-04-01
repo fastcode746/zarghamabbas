@@ -4,11 +4,11 @@ import Home from '../showcase/Home';
 import About from '../showcase/About';
 import Window from '../os/Window';
 import Experience from '../showcase/Experience';
-import Projects from '../showcase/Projects';
+import Projects from '../showcase/Projects'; // eslint-disable-line @typescript-eslint/no-unused-vars
 import Contact from '../showcase/Contact';
 import SoftwareProjects from '../showcase/projects/Software';
-import MusicProjects from '../showcase/projects/Music';
-import ArtProjects from '../showcase/projects/Art';
+import MusicProjects from '../showcase/projects/Music'; // eslint-disable-line @typescript-eslint/no-unused-vars
+import ArtProjects from '../showcase/projects/Art'; // eslint-disable-line @typescript-eslint/no-unused-vars
 import VerticalNavbar from '../showcase/VerticalNavbar';
 import useInitialWindowSize from '../../hooks/useInitialWindowSize';
 

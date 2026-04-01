@@ -5,12 +5,12 @@ import Doom from '../applications/Doom';
 import OregonTrail from '../applications/OregonTrail';
 import ShutdownSequence from './ShutdownSequence';
 // import ThisComputer from '../applications/ThisComputer';
-import Henordle from '../applications/Henordle';
+import Henordle from '../applications/Henordle'; // eslint-disable-line @typescript-eslint/no-unused-vars
 import Toolbar from './Toolbar';
 import DesktopShortcut, { DesktopShortcutProps } from './DesktopShortcut';
 import Scrabble from '../applications/Scrabble';
 import { IconName } from '../../assets/icons';
-import Credits from '../applications/Credits';
+import Credits from '../applications/Credits'; // eslint-disable-line @typescript-eslint/no-unused-vars
 
 export interface DesktopProps {}
 
